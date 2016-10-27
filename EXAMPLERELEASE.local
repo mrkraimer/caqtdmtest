@@ -1,0 +1,13 @@
+EPICS4_DIR=/home/epicsv4/master
+PVDATABASE=${EPICS4_DIR}/pvDatabaseCPP
+PVACLIENT=${EPICS4_DIR}/pvaClientCPP
+PVASRV=${EPICS4_DIR}/pvaSrv
+PVACCESS=${EPICS4_DIR}/pvAccessCPP
+NORMATIVETYPES=${EPICS4_DIR}/normativeTypesCPP
+PVDATA=${EPICS4_DIR}/pvDataCPP
+#PVCOMMON=${EPICS4_DIR}/pvCommonCPP
+
+#EPICS_BASE=/home/install/epics/base-3.14.12.5STATICBUILD
+#EPICS_BASE=/home/install/epics/base-3.14.12.5
+EPICS_BASE=/home/install/epics/base-3.15.3
+

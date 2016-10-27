@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+source ../setEnv
+
+# insert help into designer
+assistant -register ${CAQTDM}/caQtDM_QtControls/doc/caQtDM.qch
+
+designer -style plastique $*

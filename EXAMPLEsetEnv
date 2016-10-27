@@ -1,0 +1,9 @@
+#!/bin/sh
+
+export CAQTDM=/home/epicsv4/antonMezger/caqtdm
+export QTBASE=${CAQTDM}/caQtDM_Binaries
+export PATH=.:$QTBASE:$PATH
+export LD_LIBRARY_PATH=.:$QTBASE:$LD_LIBRARY_PATH
+export QT_PLUGIN_PATH=$QTBASE
+
+export EPICS_CA_MAX_ARRAY_BYTES=40000000

@@ -1,0 +1,3 @@
+record($(type), "$(name)")
+{
+}

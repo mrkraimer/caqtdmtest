@@ -1,0 +1,3 @@
+#!/bin/sh
+source ../setEnv
+caQtDM -style plastique $*&
