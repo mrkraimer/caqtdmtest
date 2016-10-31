@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>595</width>
+    <height>469</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>121</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>caqtdmPVRdouble</string>
+    </property>
+    <widget class="caSlider" name="caslider_2">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>10</y>
+       <width>20</width>
+       <height>150</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">epics4://caqtdmPVRdouble</string>
+     </property>
+     <property name="colorMode">
+      <enum>caSlider::Alarm</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_6">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>10</y>
+      <width>121</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>caqtdmDBRcounter</string>
+    </property>
+    <widget class="caSlider" name="caslider_3">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>10</y>
+       <width>20</width>
+       <height>150</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">epics4://caqtdmDBRcounter</string>
+     </property>
+     <property name="colorMode">
+      <enum>caSlider::Alarm</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>121</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>caqtdmDBRao</string>
+    </property>
+    <widget class="caSlider" name="caslider_4">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>10</y>
+       <width>20</width>
+       <height>150</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">epics4://caqtdmDBRao</string>
+     </property>
+     <property name="colorMode">
+      <enum>caSlider::Alarm</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_8">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>230</y>
+      <width>121</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>caqtdmDBRao</string>
+    </property>
+    <widget class="caSlider" name="caslider_5">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>10</y>
+       <width>20</width>
+       <height>150</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">caqtdmDBRao</string>
+     </property>
+     <property name="colorMode">
+      <enum>caSlider::Alarm</enum>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>595</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caSlider</class>
+   <extends>QWidget</extends>
+   <header>caSlider</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

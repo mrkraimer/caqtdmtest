@@ -25,20 +25,55 @@ using namespace epics::pvaClient;
 class ClientMonitor;
 typedef std::tr1::shared_ptr<ClientMonitor> ClientMonitorPtr;
 
+class CallbackRequester;
+typedef std::tr1::shared_ptr<CallbackRequester> CallbackRequesterPtr;
+
+class epicsShareClass CallbackRequester
+{
+public:
+    virtual ~CallbackRequester(){}
+    virtual void callback() = 0;
+};
+
 class CallbackThread;
 typedef std::tr1::shared_ptr<CallbackThread> CallbackThreadPtr;
 
 class epicsShareClass  CallbackThread :
     public epicsThreadRunable
 {
-    std::queue<ClientMonitorPtr> monitorQueue;
+    std::queue<CallbackRequesterPtr> monitorQueue;
     std::tr1::shared_ptr<epicsThread> thread;
     Mutex mutex;
     Event runStop;
     Event runReturn;
 public:
     POINTER_DEFINITIONS(CallbackThread);
-    virtual void run();
+    virtual void run()
+    {
+        CallbackRequesterPtr callbackRequester;
+        while(true) 
+        {
+            epicsThreadSleep(.1);
+            if(runStop.tryWait()) {
+                runReturn.signal();
+                return;
+            }    
+            {
+                 Lock xx(mutex);
+                 if(monitorQueue.empty()) continue;
+                 cout << "monitorQueue.size " << monitorQueue.size() << endl;
+                 callbackRequester = monitorQueue.front();
+                 monitorQueue.pop();
+            }
+            while(callbackRequester) {
+                callbackRequester->callback();
+                Lock xx(mutex);
+                if(monitorQueue.empty()) break;
+                callbackRequester = monitorQueue.front();
+                monitorQueue.pop();
+            }
+        }
+    }
     void startThread()
     {
          thread =  std::tr1::shared_ptr<epicsThread>(new epicsThread(
@@ -48,10 +83,10 @@ public:
             epicsThreadPriorityLow));
          thread->start();
     }
-    void queueRequest(ClientMonitorPtr const & clientMonitor)
+    void queueRequest(CallbackRequesterPtr const & callbackRequester)
     {
         Lock xx(mutex);
-        monitorQueue.push(clientMonitor);
+        monitorQueue.push(callbackRequester);
     }
     static CallbackThreadPtr create()
     {
@@ -74,6 +109,7 @@ private:
 class ClientMonitor :
     public PvaClientChannelStateChangeRequester,
     public PvaClientMonitorRequester,
+    public CallbackRequester,
     public std::tr1::enable_shared_from_this<ClientMonitor>
 {
     PvaClientPtr pvaClient;
@@ -139,7 +175,7 @@ public:
          cout << "ClientMonitorRequester::unlisten\n";
          unlistenCalled = true;
     }
-    void firstContact()
+    virtual void callback()
     {
         try {
             monitor = channel->createMonitor("value,alarm,timeStamp");
@@ -155,31 +191,6 @@ public:
     }
     bool isUnlisten() {return unlistenCalled;}
 };
-
-void CallbackThread::run()
-{
-    ClientMonitorPtr clientMonitor;
-    while(true) 
-    {
-        epicsThreadSleep(.1);
-        if(runStop.tryWait()) {
-             runReturn.signal();
-             return;
-        }    
-        {
-              Lock xx(mutex);
-              if(!monitorQueue.empty()) cout << "monitorQueue.size " << monitorQueue.size() << endl;
-              clientMonitor = monitorQueue.front();
-              if(clientMonitor) monitorQueue.pop();
-        }
-        while(clientMonitor) {
-             clientMonitor->firstContact();
-             Lock xx(mutex);
-             clientMonitor = monitorQueue.front();
-             if(clientMonitor) monitorQueue.pop();
-        }
-    }
-}
 
 
 int main(int argc,char *argv[])
