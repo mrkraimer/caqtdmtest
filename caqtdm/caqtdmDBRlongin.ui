@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>260</width>
-    <height>455</height>
+    <width>459</width>
+    <height>533</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,9 +17,9 @@
    <widget class="QGroupBox" name="groupBox_8">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>231</width>
+      <x>30</x>
+      <y>10</y>
+      <width>401</width>
       <height>381</height>
      </rect>
     </property>
@@ -27,185 +27,11 @@
      <bool>true</bool>
     </property>
     <property name="title">
-     <string>caqtdbDBRmbbi</string>
+     <string>caqtdbDBRlongin</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
     </property>
-    <widget class="QGroupBox" name="groupBox_5">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>20</y>
-       <width>171</width>
-       <height>67</height>
-      </rect>
-     </property>
-     <property name="autoFillBackground">
-      <bool>true</bool>
-     </property>
-     <property name="title">
-      <string>epics3</string>
-     </property>
-     <widget class="caTextEntry" name="catextentry_17">
-      <property name="geometry">
-       <rect>
-        <x>11</x>
-        <y>27</y>
-        <width>100</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="channel" stdset="0">
-       <string notr="true">epics3://caqtdmDBRmbbi</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QGroupBox" name="groupBox_6">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>100</y>
-       <width>171</width>
-       <height>67</height>
-      </rect>
-     </property>
-     <property name="autoFillBackground">
-      <bool>true</bool>
-     </property>
-     <property name="title">
-      <string>epics3</string>
-     </property>
-     <widget class="caTextEntry" name="catextentry_18">
-      <property name="geometry">
-       <rect>
-        <x>11</x>
-        <y>27</y>
-        <width>100</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="channel" stdset="0">
-       <string notr="true">epics3://caqtdmDBRmbbi</string>
-      </property>
-     </widget>
-     <widget class="QGroupBox" name="groupBox_7">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>171</width>
-        <height>67</height>
-       </rect>
-      </property>
-      <property name="autoFillBackground">
-       <bool>true</bool>
-      </property>
-      <property name="title">
-       <string>epics3</string>
-      </property>
-      <widget class="caTextEntry" name="catextentry_19">
-       <property name="geometry">
-        <rect>
-         <x>11</x>
-         <y>27</y>
-         <width>100</width>
-         <height>22</height>
-        </rect>
-       </property>
-       <property name="channel" stdset="0">
-        <string notr="true">epics3://caqtdmDBRmbbi</string>
-       </property>
-      </widget>
-      <widget class="QGroupBox" name="groupBox_9">
-       <property name="geometry">
-        <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>171</width>
-         <height>67</height>
-        </rect>
-       </property>
-       <property name="autoFillBackground">
-        <bool>true</bool>
-       </property>
-       <property name="title">
-        <string>default</string>
-       </property>
-       <widget class="caTextEntry" name="catextentry_20">
-        <property name="geometry">
-         <rect>
-          <x>11</x>
-          <y>27</y>
-          <width>100</width>
-          <height>22</height>
-         </rect>
-        </property>
-        <property name="channel" stdset="0">
-         <string notr="true">caqtdmDBRmbbi</string>
-        </property>
-       </widget>
-      </widget>
-     </widget>
-    </widget>
-    <widget class="QGroupBox" name="groupBox_10">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>180</y>
-       <width>171</width>
-       <height>67</height>
-      </rect>
-     </property>
-     <property name="autoFillBackground">
-      <bool>true</bool>
-     </property>
-     <property name="title">
-      <string>epics3</string>
-     </property>
-     <widget class="caTextEntry" name="catextentry_21">
-      <property name="geometry">
-       <rect>
-        <x>11</x>
-        <y>27</y>
-        <width>100</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="channel" stdset="0">
-       <string notr="true">epics3://caqtdmDBRmbbi</string>
-      </property>
-     </widget>
-     <widget class="QGroupBox" name="groupBox_11">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>171</width>
-        <height>67</height>
-       </rect>
-      </property>
-      <property name="autoFillBackground">
-       <bool>true</bool>
-      </property>
-      <property name="title">
-       <string>ca</string>
-      </property>
-      <widget class="caTextEntry" name="catextentry_22">
-       <property name="geometry">
-        <rect>
-         <x>11</x>
-         <y>27</y>
-         <width>100</width>
-         <height>22</height>
-        </rect>
-       </property>
-       <property name="channel" stdset="0">
-        <string notr="true">ca://caqtdmDBRmbbi</string>
-       </property>
-      </widget>
-     </widget>
-    </widget>
     <widget class="QGroupBox" name="groupBox_12">
      <property name="geometry">
       <rect>
@@ -231,7 +57,97 @@
        </rect>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">pva://caqtdmDBRmbbi</string>
+       <string notr="true">pva://caqtdmDBRlongin</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>162</width>
+       <height>67</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="title">
+      <string>epics3</string>
+     </property>
+     <widget class="caTextEntry" name="catextentry_16">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>100</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">epics3://caqtdmDBRlongin</string>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Alarm_Default</enum>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_13">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>180</y>
+       <width>171</width>
+       <height>67</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="title">
+      <string>ca</string>
+     </property>
+     <widget class="caTextEntry" name="catextentry_24">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>27</y>
+        <width>100</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">ca://caqtdmDBRlongin</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_14">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>171</width>
+       <height>67</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="title">
+      <string>default</string>
+     </property>
+     <widget class="caTextEntry" name="catextentry_25">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>27</y>
+        <width>100</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">caqtdmDBRlongin</string>
       </property>
      </widget>
     </widget>
@@ -242,7 +158,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>260</width>
+     <width>459</width>
      <height>19</height>
     </rect>
    </property>
