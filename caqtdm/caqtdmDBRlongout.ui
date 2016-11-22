@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>459</width>
-    <height>533</height>
+    <width>277</width>
+    <height>461</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,9 +17,9 @@
    <widget class="QGroupBox" name="groupBox_8">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>20</x>
       <y>10</y>
-      <width>401</width>
+      <width>211</width>
       <height>381</height>
      </rect>
     </property>
@@ -58,6 +58,9 @@
       </property>
       <property name="channel" stdset="0">
        <string notr="true">pva://caqtdmDBRlongout</string>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Alarm_Default</enum>
       </property>
      </widget>
     </widget>
@@ -120,6 +123,9 @@
       <property name="channel" stdset="0">
        <string notr="true">ca://caqtdmDBRlongout</string>
       </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Alarm_Default</enum>
+      </property>
      </widget>
     </widget>
     <widget class="QGroupBox" name="groupBox_14">
@@ -149,6 +155,9 @@
       <property name="channel" stdset="0">
        <string notr="true">caqtdmDBRlongout</string>
       </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Alarm_Default</enum>
+      </property>
      </widget>
     </widget>
    </widget>
@@ -158,7 +167,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>459</width>
+     <width>277</width>
      <height>19</height>
     </rect>
    </property>

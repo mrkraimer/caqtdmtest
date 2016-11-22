@@ -1,0 +1,8 @@
+record(bo, "$(name)")
+{
+    field(ZNAM,"false")
+    field(ONAM,"true")
+    field(OSV,"MAJOR")
+    field(ZNAM,"MINOR")
+    field(COSSV,"MINOR")
+}

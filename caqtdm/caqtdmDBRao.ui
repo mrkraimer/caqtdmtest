@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>459</width>
-    <height>533</height>
+    <width>270</width>
+    <height>444</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>401</width>
+      <width>231</width>
       <height>381</height>
      </rect>
     </property>
@@ -27,7 +27,7 @@
      <bool>true</bool>
     </property>
     <property name="title">
-     <string>caqtdbDBRai</string>
+     <string>caqtdbDBRao</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -58,6 +58,9 @@
       </property>
       <property name="channel" stdset="0">
        <string notr="true">pva://caqtdmDBRao</string>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Alarm_Default</enum>
       </property>
      </widget>
     </widget>
@@ -155,6 +158,9 @@
       <property name="channel" stdset="0">
        <string notr="true">ca://caqtdmDBRao</string>
       </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Alarm_Default</enum>
+      </property>
      </widget>
     </widget>
    </widget>
@@ -164,7 +170,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>459</width>
+     <width>270</width>
      <height>19</height>
     </rect>
    </property>

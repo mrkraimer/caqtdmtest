@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>459</width>
-    <height>533</height>
+    <width>278</width>
+    <height>452</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>401</width>
+      <width>241</width>
       <height>381</height>
      </rect>
     </property>
@@ -58,6 +58,9 @@
       </property>
       <property name="channel" stdset="0">
        <string notr="true">pva://caqtdmDBRai</string>
+      </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Alarm_Default</enum>
       </property>
      </widget>
     </widget>
@@ -155,6 +158,9 @@
       <property name="channel" stdset="0">
        <string notr="true">ca://caqtdmDBRai</string>
       </property>
+      <property name="colorMode">
+       <enum>caLineEdit::Alarm_Default</enum>
+      </property>
      </widget>
     </widget>
    </widget>
@@ -164,7 +170,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>459</width>
+     <width>278</width>
      <height>19</height>
     </rect>
    </property>
