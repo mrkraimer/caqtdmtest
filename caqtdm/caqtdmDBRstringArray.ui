@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>273</width>
-    <height>475</height>
+    <width>397</width>
+    <height>429</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,9 +17,9 @@
    <widget class="QGroupBox" name="groupBox_8">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>10</y>
-      <width>211</width>
+      <x>0</x>
+      <y>0</y>
+      <width>351</width>
       <height>381</height>
      </rect>
     </property>
@@ -37,7 +37,7 @@
       <rect>
        <x>10</x>
        <y>260</y>
-       <width>171</width>
+       <width>321</width>
        <height>67</height>
       </rect>
      </property>
@@ -52,7 +52,7 @@
        <rect>
         <x>11</x>
         <y>27</y>
-        <width>100</width>
+        <width>301</width>
         <height>22</height>
        </rect>
       </property>
@@ -67,9 +67,9 @@
     <widget class="QGroupBox" name="groupBox_3">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>20</y>
-       <width>162</width>
+       <x>20</x>
+       <y>10</y>
+       <width>321</width>
        <height>67</height>
       </rect>
      </property>
@@ -84,7 +84,7 @@
        <rect>
         <x>10</x>
         <y>30</y>
-        <width>100</width>
+        <width>301</width>
         <height>22</height>
        </rect>
       </property>
@@ -101,7 +101,7 @@
       <rect>
        <x>10</x>
        <y>180</y>
-       <width>171</width>
+       <width>321</width>
        <height>67</height>
       </rect>
      </property>
@@ -116,7 +116,7 @@
        <rect>
         <x>11</x>
         <y>27</y>
-        <width>100</width>
+        <width>301</width>
         <height>22</height>
        </rect>
       </property>
@@ -133,7 +133,7 @@
       <rect>
        <x>10</x>
        <y>100</y>
-       <width>171</width>
+       <width>321</width>
        <height>67</height>
       </rect>
      </property>
@@ -148,7 +148,7 @@
        <rect>
         <x>11</x>
         <y>27</y>
-        <width>100</width>
+        <width>301</width>
         <height>22</height>
        </rect>
       </property>
@@ -167,7 +167,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>273</width>
+     <width>397</width>
      <height>19</height>
     </rect>
    </property>

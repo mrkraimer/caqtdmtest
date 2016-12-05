@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>773</width>
-    <height>563</height>
+    <width>873</width>
+    <height>926</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
       <x>0</x>
       <y>0</y>
       <width>831</width>
-      <height>771</height>
+      <height>811</height>
      </rect>
     </property>
     <property name="autoFillBackground">
@@ -400,6 +400,194 @@
       <enum>caCartesianPlot::linear</enum>
      </property>
     </widget>
+    <widget class="caWaveTable" name="cawavetable">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>520</y>
+       <width>826</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">epics3://caqtdmDBRdoubleArray</string>
+     </property>
+     <property name="numberOfRows">
+      <number>0</number>
+     </property>
+     <property name="numberOfColumns">
+      <number>10</number>
+     </property>
+     <property name="alignment">
+      <enum>caWaveTable::Right</enum>
+     </property>
+     <property name="colorMode">
+      <enum>caWaveTable::Alarm</enum>
+     </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caWaveTable::User</enum>
+     </property>
+     <property name="formatType">
+      <enum>caWaveTable::decimal</enum>
+     </property>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+    </widget>
+    <widget class="caWaveTable" name="cawavetable_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>590</y>
+       <width>826</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">ca://caqtdmDBRdoubleArray</string>
+     </property>
+     <property name="numberOfRows">
+      <number>0</number>
+     </property>
+     <property name="numberOfColumns">
+      <number>10</number>
+     </property>
+     <property name="alignment">
+      <enum>caWaveTable::Right</enum>
+     </property>
+     <property name="colorMode">
+      <enum>caWaveTable::Alarm</enum>
+     </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caWaveTable::User</enum>
+     </property>
+     <property name="formatType">
+      <enum>caWaveTable::decimal</enum>
+     </property>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+    </widget>
+    <widget class="caWaveTable" name="cawavetable_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>660</y>
+       <width>826</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">caqtdmDBRdoubleArray</string>
+     </property>
+     <property name="numberOfRows">
+      <number>0</number>
+     </property>
+     <property name="numberOfColumns">
+      <number>10</number>
+     </property>
+     <property name="alignment">
+      <enum>caWaveTable::Right</enum>
+     </property>
+     <property name="colorMode">
+      <enum>caWaveTable::Alarm</enum>
+     </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caWaveTable::User</enum>
+     </property>
+     <property name="formatType">
+      <enum>caWaveTable::decimal</enum>
+     </property>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+    </widget>
+    <widget class="caWaveTable" name="cawavetable_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>730</y>
+       <width>826</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">pva://caqtdmDBRdoubleArray</string>
+     </property>
+     <property name="numberOfRows">
+      <number>0</number>
+     </property>
+     <property name="numberOfColumns">
+      <number>10</number>
+     </property>
+     <property name="alignment">
+      <enum>caWaveTable::Right</enum>
+     </property>
+     <property name="colorMode">
+      <enum>caWaveTable::Alarm</enum>
+     </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caWaveTable::User</enum>
+     </property>
+     <property name="formatType">
+      <enum>caWaveTable::decimal</enum>
+     </property>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+     <column/>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -407,7 +595,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>773</width>
+     <width>873</width>
      <height>19</height>
     </rect>
    </property>
@@ -419,6 +607,11 @@
    <class>caCartesianPlot</class>
    <extends>QFrame</extends>
    <header>caCartesianPlot</header>
+  </customwidget>
+  <customwidget>
+   <class>caWaveTable</class>
+   <extends>QTableWidget</extends>
+   <header>caWaveTable</header>
   </customwidget>
  </customwidgets>
  <resources/>
