@@ -1,0 +1,1612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>569</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>561</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTabWidget::tab &gt; QWidget &gt;QWidget {background: wheat;}</string>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::North</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>ai</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_8">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>20</y>
+        <width>241</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="title">
+       <string>caqtdbDBRai</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QGroupBox" name="groupBox_12">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>260</y>
+         <width>171</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>pva</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_23">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">pva://caqtdmDBRai</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>162</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>epics3</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_16">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">epics3://caqtdmDBRai</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_5">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>100</y>
+         <width>201</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>default</string>
+       </property>
+       <widget class="caSlider" name="caslider_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>150</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">caqtdmDBRai</string>
+        </property>
+        <property name="direction">
+         <enum>caSlider::Right</enum>
+        </property>
+        <property name="colorMode">
+         <enum>caSlider::Alarm</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_13">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>171</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>ca</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_24">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">ca://caqtdmDBRai</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>ao</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_10">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>0</y>
+        <width>231</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="title">
+       <string>caqtdbDBRao</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QGroupBox" name="groupBox_16">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>260</y>
+         <width>171</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>pva</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_27">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">pva://caqtdmDBRao</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>162</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>epics3</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_18">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">epics3://caqtdmDBRao</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_11">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>100</y>
+         <width>201</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>default</string>
+       </property>
+       <widget class="caSlider" name="caslider_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>150</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">caqtdmDBRao</string>
+        </property>
+        <property name="direction">
+         <enum>caSlider::Right</enum>
+        </property>
+        <property name="colorMode">
+         <enum>caSlider::Alarm</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_17">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>171</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>ca</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_28">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">ca://caqtdmDBRao</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>bi</string>
+     </attribute>
+     <widget class="caImage" name="caimage_4">
+      <property name="geometry">
+       <rect>
+        <x>265</x>
+        <y>315</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="filename" stdset="0">
+       <string notr="true">earth.gif</string>
+      </property>
+      <property name="imageCalc">
+       <string notr="true"/>
+      </property>
+     </widget>
+     <widget class="caImage" name="caimage_5">
+      <property name="geometry">
+       <rect>
+        <x>165</x>
+        <y>380</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="filename" stdset="0">
+       <string notr="true">earth.gif</string>
+      </property>
+      <property name="imageCalc">
+       <string notr="true"/>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_18">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>211</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="title">
+       <string>caqtdbDBRbi</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QGroupBox" name="groupBox_19">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>260</y>
+         <width>171</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>pva</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_29">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">pva://caqtdmDBRbi</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_20">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>162</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>epics3</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_19">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">epics3://caqtdmDBRbi</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_21">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>171</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>ca</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_30">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">ca://caqtdmDBRbi</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_22">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>171</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>default</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_31">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">caqtdmDBRbi</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>longin</string>
+     </attribute>
+     <widget class="caImage" name="caImage_23">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>260</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="filename" stdset="0">
+       <string>turbo.gif</string>
+      </property>
+      <property name="imageCalc">
+       <string notr="true"/>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true"/>
+      </property>
+     </widget>
+     <widget class="caImage" name="caImage_24">
+      <property name="geometry">
+       <rect>
+        <x>195</x>
+        <y>260</y>
+        <width>40</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="filename" stdset="0">
+       <string>turbo.gif</string>
+      </property>
+      <property name="imageCalc">
+       <string>A</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">ACM:COUNT:1</string>
+      </property>
+     </widget>
+     <widget class="caImage" name="caimage">
+      <property name="geometry">
+       <rect>
+        <x>245</x>
+        <y>250</y>
+        <width>366</width>
+        <height>146</height>
+       </rect>
+      </property>
+      <property name="filename" stdset="0">
+       <string notr="true">pvss2.jpg</string>
+      </property>
+     </widget>
+     <widget class="caImage" name="caimage_2">
+      <property name="geometry">
+       <rect>
+        <x>55</x>
+        <y>370</y>
+        <width>161</width>
+        <height>96</height>
+       </rect>
+      </property>
+      <property name="filename" stdset="0">
+       <string notr="true">splash.png</string>
+      </property>
+     </widget>
+     <widget class="caImage" name="caimage_3">
+      <property name="geometry">
+       <rect>
+        <x>665</x>
+        <y>250</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="filename" stdset="0">
+       <string notr="true">earth.gif</string>
+      </property>
+      <property name="imageCalc">
+       <string notr="true"/>
+      </property>
+     </widget>
+     <widget class="caImage" name="caimage_7">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>100</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="filename" stdset="0">
+       <string notr="true">animated.gif</string>
+      </property>
+      <property name="imageCalc">
+       <string notr="true"/>
+      </property>
+      <property name="frame">
+       <number>0</number>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_23">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>10</y>
+        <width>211</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="title">
+       <string>caqtdbDBRlongin</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QGroupBox" name="groupBox_24">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>260</y>
+         <width>171</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>pva</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_32">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">pva://caqtdmDBRlongin</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_25">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>162</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>epics3</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_20">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">epics3://caqtdmDBRlongin</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_26">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>171</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>ca</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_33">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">ca://caqtdmDBRlongin</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_27">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>171</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>default</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_34">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">caqtdmDBRlongin</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_8">
+     <attribute name="title">
+      <string>longout</string>
+     </attribute>
+     <widget class="caFrame" name="caframe_2">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>50</y>
+        <width>321</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="macro">
+       <string notr="true">FILE=object_quad</string>
+      </property>
+     </widget>
+     <widget class="caLabel" name="calabel_42">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>10</y>
+        <width>321</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_28">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>0</y>
+        <width>211</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="title">
+       <string>caqtdbDBRlongout</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QGroupBox" name="groupBox_29">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>260</y>
+         <width>171</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>pva</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_35">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">pva://caqtdmDBRlongout</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_30">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>162</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>epics3</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_21">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">epics3://caqtdmDBRlongout</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_31">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>171</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>ca</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_36">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">ca://caqtdmDBRlongout</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_32">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>171</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>default</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_37">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">caqtdmDBRlongout</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_39">
+     <attribute name="title">
+      <string>mbbi</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_33">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>10</y>
+        <width>211</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="title">
+       <string>caqtdbDBRmbbi</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QGroupBox" name="groupBox_34">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>260</y>
+         <width>171</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>pva</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_38">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">pva://caqtdmDBRmbbi</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_35">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>162</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>epics3</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_22">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">epics3://caqtdmDBRmbbi</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_36">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>171</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>ca</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_39">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">ca://caqtdmDBRmbbi</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_37">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>171</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>default</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_40">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">caqtdmDBRmbbi</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_9">
+     <attribute name="title">
+      <string>stringin</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_38">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>10</y>
+        <width>321</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="title">
+       <string>caqtdbDBRstringin</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QGroupBox" name="groupBox_39">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>260</y>
+         <width>281</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>pva</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_41">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>261</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">pva://caqtdmDBRstringin</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_40">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>291</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>epics3</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_42">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>271</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">epics3://caqtdmDBRstringin</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_41">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>291</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>ca</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_43">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>271</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">ca://caqtdmDBRstringin</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_42">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>291</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>default</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_44">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>271</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">caqtdmDBRstringin</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_31">
+     <attribute name="title">
+      <string>counter</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_43">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>0</y>
+        <width>471</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="title">
+       <string>caqtdmDBRcounter</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QGroupBox" name="groupBox_44">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>91</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>epics3</string>
+       </property>
+       <widget class="caSlider" name="caslider_5">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>20</y>
+          <width>20</width>
+          <height>150</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">epics3://caqtdmDBRcounter</string>
+        </property>
+        <property name="colorMode">
+         <enum>caSlider::Alarm</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_45">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>30</y>
+         <width>91</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>default</string>
+       </property>
+       <widget class="caSlider" name="caslider_6">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>20</y>
+          <width>20</width>
+          <height>150</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">caqtdmDBRcounter</string>
+        </property>
+        <property name="colorMode">
+         <enum>caSlider::Alarm</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_46">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>30</y>
+         <width>91</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>ca</string>
+       </property>
+       <widget class="caSlider" name="caslider_7">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>20</y>
+          <width>20</width>
+          <height>150</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">ca://caqtdmDBRcounter</string>
+        </property>
+        <property name="colorMode">
+         <enum>caSlider::Alarm</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_47">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>30</y>
+         <width>91</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>pva</string>
+       </property>
+       <widget class="caSlider" name="caslider_8">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>20</y>
+          <width>20</width>
+          <height>150</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">pva://caqtdmDBRcounter</string>
+        </property>
+        <property name="colorMode">
+         <enum>caSlider::Alarm</enum>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_32">
+     <attribute name="title">
+      <string>mbbo</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_9">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>211</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="title">
+       <string>caqtdbDBRmbbo</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QGroupBox" name="groupBox_14">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>260</y>
+         <width>171</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>pva</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_25">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">pva://caqtdmDBRmbbo</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>162</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>epics3</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_17">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">epics3://caqtdmDBRmbbo</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_15">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>171</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>ca</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_26">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">ca://caqtdmDBRmbbo</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_48">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>171</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string>default</string>
+       </property>
+       <widget class="caTextEntry" name="catextentry_45">
+        <property name="geometry">
+         <rect>
+          <x>11</x>
+          <y>27</y>
+          <width>100</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="channel" stdset="0">
+         <string notr="true">caqtdmDBRmbbo</string>
+        </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>569</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caSlider</class>
+   <extends>QWidget</extends>
+   <header>caSlider</header>
+  </customwidget>
+  <customwidget>
+   <class>caTextEntry</class>
+   <extends>caLineEdit</extends>
+   <header>caTextEntry</header>
+  </customwidget>
+  <customwidget>
+   <class>caFrame</class>
+   <extends>QFrame</extends>
+   <header>caFrame</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>caLabel</class>
+   <extends>QLabel</extends>
+   <header>caLabel</header>
+  </customwidget>
+  <customwidget>
+   <class>caImage</class>
+   <extends>QWidget</extends>
+   <header>caImage</header>
+  </customwidget>
+  <customwidget>
+   <class>caLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>caLineEdit</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
