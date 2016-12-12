@@ -33,7 +33,7 @@
      <enum>QTabWidget::North</enum>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>6</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
@@ -1162,6 +1162,9 @@
         <property name="channel" stdset="0">
          <string notr="true">pva://caqtdmDBRstringin</string>
         </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
        </widget>
       </widget>
       <widget class="QGroupBox" name="groupBox_40">
@@ -1223,6 +1226,9 @@
         <property name="channel" stdset="0">
          <string notr="true">ca://caqtdmDBRstringin</string>
         </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
        </widget>
       </widget>
       <widget class="QGroupBox" name="groupBox_42">
@@ -1252,6 +1258,9 @@
         <property name="channel" stdset="0">
          <string notr="true">caqtdmDBRstringin</string>
         </property>
+        <property name="colorMode">
+         <enum>caLineEdit::Alarm_Default</enum>
+        </property>
        </widget>
       </widget>
      </widget>
@@ -1273,7 +1282,7 @@
        <bool>true</bool>
       </property>
       <property name="title">
-       <string>caqtdmDBRcounter</string>
+       <string>caqtdmDBRfastCounter</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -1303,7 +1312,7 @@
          </rect>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">epics3://caqtdmDBRcounter</string>
+         <string notr="true">epics3://caqtdmDBRfastCounter</string>
         </property>
         <property name="colorMode">
          <enum>caSlider::Alarm</enum>
@@ -1335,7 +1344,7 @@
          </rect>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">caqtdmDBRcounter</string>
+         <string notr="true">caqtdmDBRfastCounter</string>
         </property>
         <property name="colorMode">
          <enum>caSlider::Alarm</enum>
@@ -1367,7 +1376,7 @@
          </rect>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">ca://caqtdmDBRcounter</string>
+         <string notr="true">ca://caqtdmDBRfastCounter</string>
         </property>
         <property name="colorMode">
          <enum>caSlider::Alarm</enum>
@@ -1399,7 +1408,7 @@
          </rect>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">pva://caqtdmDBRcounter</string>
+         <string notr="true">pva://caqtdmDBRfastCounter</string>
         </property>
         <property name="colorMode">
          <enum>caSlider::Alarm</enum>

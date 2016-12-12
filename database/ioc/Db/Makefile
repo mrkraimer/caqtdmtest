@@ -16,6 +16,7 @@ DB += ai.db
 DB += ao.db
 DB += array.db
 DB += counter.db
+DB += fastCounter.db
 DB += longin.db
 DB += longout.db
 DB += mbbi.db

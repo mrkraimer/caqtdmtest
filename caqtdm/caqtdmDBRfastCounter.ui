@@ -6,71 +6,39 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>393</width>
-    <height>439</height>
+    <width>521</width>
+    <height>338</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QGroupBox" name="groupBox_8">
+   <widget class="QGroupBox" name="groupBox_6">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>10</y>
-      <width>321</width>
-      <height>381</height>
+      <x>0</x>
+      <y>0</y>
+      <width>471</width>
+      <height>251</height>
      </rect>
     </property>
     <property name="autoFillBackground">
      <bool>true</bool>
     </property>
     <property name="title">
-     <string>caqtdbDBRstringin</string>
+     <string>caqtdmDBRfastCounter</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
     </property>
-    <widget class="QGroupBox" name="groupBox_12">
+    <widget class="QGroupBox" name="groupBox_7">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>260</y>
-       <width>281</width>
-       <height>67</height>
-      </rect>
-     </property>
-     <property name="autoFillBackground">
-      <bool>true</bool>
-     </property>
-     <property name="title">
-      <string>pva</string>
-     </property>
-     <widget class="caTextEntry" name="catextentry_23">
-      <property name="geometry">
-       <rect>
-        <x>11</x>
-        <y>27</y>
-        <width>261</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="channel" stdset="0">
-       <string notr="true">pva://caqtdmDBRstringin</string>
-      </property>
-      <property name="colorMode">
-       <enum>caLineEdit::Alarm_Default</enum>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QGroupBox" name="groupBox_3">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>20</y>
-       <width>291</width>
-       <height>67</height>
+       <x>0</x>
+       <y>30</y>
+       <width>91</width>
+       <height>201</height>
       </rect>
      </property>
      <property name="autoFillBackground">
@@ -79,62 +47,30 @@
      <property name="title">
       <string>epics3</string>
      </property>
-     <widget class="caTextEntry" name="catextentry_16">
+     <widget class="caSlider" name="caslider_3">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>30</y>
-        <width>271</width>
-        <height>22</height>
+        <x>30</x>
+        <y>20</y>
+        <width>20</width>
+        <height>150</height>
        </rect>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">epics3://caqtdmDBRstringin</string>
+       <string notr="true">epics3://caqtdmDBRfastCounter</string>
       </property>
       <property name="colorMode">
-       <enum>caLineEdit::Alarm_Default</enum>
+       <enum>caSlider::Alarm</enum>
       </property>
      </widget>
     </widget>
-    <widget class="QGroupBox" name="groupBox_13">
+    <widget class="QGroupBox" name="groupBox_9">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>180</y>
-       <width>291</width>
-       <height>67</height>
-      </rect>
-     </property>
-     <property name="autoFillBackground">
-      <bool>true</bool>
-     </property>
-     <property name="title">
-      <string>ca</string>
-     </property>
-     <widget class="caTextEntry" name="catextentry_24">
-      <property name="geometry">
-       <rect>
-        <x>11</x>
-        <y>27</y>
-        <width>271</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="channel" stdset="0">
-       <string notr="true">ca://caqtdmDBRstringin</string>
-      </property>
-      <property name="colorMode">
-       <enum>caLineEdit::Alarm_Default</enum>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QGroupBox" name="groupBox_14">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>100</y>
-       <width>291</width>
-       <height>67</height>
+       <x>110</x>
+       <y>30</y>
+       <width>91</width>
+       <height>201</height>
       </rect>
      </property>
      <property name="autoFillBackground">
@@ -143,20 +79,84 @@
      <property name="title">
       <string>default</string>
      </property>
-     <widget class="caTextEntry" name="catextentry_25">
+     <widget class="caSlider" name="caslider_5">
       <property name="geometry">
        <rect>
-        <x>11</x>
-        <y>27</y>
-        <width>271</width>
-        <height>22</height>
+        <x>30</x>
+        <y>20</y>
+        <width>20</width>
+        <height>150</height>
        </rect>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">caqtdmDBRstringin</string>
+       <string notr="true">caqtdmDBRfastCounter</string>
       </property>
       <property name="colorMode">
-       <enum>caLineEdit::Alarm_Default</enum>
+       <enum>caSlider::Alarm</enum>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_10">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>30</y>
+       <width>91</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="title">
+      <string>ca</string>
+     </property>
+     <widget class="caSlider" name="caslider_6">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>20</width>
+        <height>150</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">ca://caqtdmDBRfastCounter</string>
+      </property>
+      <property name="colorMode">
+       <enum>caSlider::Alarm</enum>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_11">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>30</y>
+       <width>91</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="title">
+      <string>pva</string>
+     </property>
+     <widget class="caSlider" name="caslider_7">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>20</width>
+        <height>150</height>
+       </rect>
+      </property>
+      <property name="channel" stdset="0">
+       <string notr="true">pva://caqtdmDBRfastCounter</string>
+      </property>
+      <property name="colorMode">
+       <enum>caSlider::Alarm</enum>
       </property>
      </widget>
     </widget>
@@ -167,7 +167,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>393</width>
+     <width>521</width>
      <height>19</height>
     </rect>
    </property>
@@ -176,14 +176,9 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>caTextEntry</class>
-   <extends>caLineEdit</extends>
-   <header>caTextEntry</header>
-  </customwidget>
-  <customwidget>
-   <class>caLineEdit</class>
-   <extends>QLineEdit</extends>
-   <header>caLineEdit</header>
+   <class>caSlider</class>
+   <extends>QWidget</extends>
+   <header>caSlider</header>
   </customwidget>
  </customwidgets>
  <resources/>

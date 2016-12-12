@@ -18,6 +18,7 @@ dbLoadRecords("db/bo.db","name=caqtdmDBRbo,type=bo")
 dbLoadRecords("db/mbbi.db","name=caqtdmDBRmbbi,type=mbbi")
 dbLoadRecords("db/mbbo.db","name=caqtdmDBRmbbo,type=mbbo")
 dbLoadRecords("db/counter.db","name=caqtdmDBRcounter")
+dbLoadRecords("db/fastCounter.db","name=caqtdmDBRfastCounter")
 
 dbLoadRecords("db/array.db","name=caqtdmDBRbyteArray,type=CHAR")
 dbLoadRecords("db/array.db","name=caqtdmDBRubyteArray,type=UCHAR")
