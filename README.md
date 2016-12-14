@@ -10,7 +10,7 @@ It has two subdirectories:
 ## Building and starting database
 
 * Copy the file EXAMPLERELEASE.local to a file named RELEASE.local.
-* Edit RELEASE.local so that it has correct locations for all components to references.
+* Edit RELEASE.local so that it has correct locations for all components.
 * cd to directory database
 * make
 * cd to directory database/iocBoot/exampleDatabase
@@ -21,7 +21,13 @@ It has two subdirectories:
 * Copy the file EXAMPLEsetEnv to setEnv
 * Edit setEnv so that it locates caqtdm
 * cd to directory caqtdm
-caqtdmDBRao
+
+
+To initialize the array records in the database
+
+    ./initArrays
+
+
 To start caqtdm execute:
 
       ./startDM

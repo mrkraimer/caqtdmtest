@@ -1,5 +1,5 @@
 record(waveform, "${name}")
 {
-        field(NELM,"5")
+        field(NELM,"10")
         field(FTVL,"STRING")
 }
